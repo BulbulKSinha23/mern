@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(244, 74%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+h1{
+    background-color: rgb(229, 202, 254);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 10px;
+}
+label{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+}
+input{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px;
+}
+button{
+    background-color: rgb(229, 202, 254);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 20vh;
+}
