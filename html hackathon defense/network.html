@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network</title>
+</head>
+<body>
+    <h1>How does Network Work?</h1>
+    <hr>
+    <p> a web browser sends an HTTP request to a web server, which responds by sending the website's data (HTML, CSS, etc.) back in packets across the network (primarily TCP/IP) to be reassembled and displayed by the browser. This process involves a series of steps including DNS lookups to find the server's IP address, routing packets to the correct destination, and reassembling the data at the client end to form the web page.</p>  
+    Here's a breakdown of the process:
+    <h2>1. Browser Sends a Request:</h2>
+    <p>Your web browser initiates the process by sending an HTTP request to the server where the website is hosted. </p>
+    <h2>2. DNS Lookup:</h2>
+    <p>The browser first uses the Domain Name System (DNS) to find the specific IP address of the server hosting the website.</p> 
+    <h2>3. TCP/IP and Packet Switching:</h2>
+    <p>The request and subsequent data travel across the internet using the TCP/IP protocol suite. Data is broken down into small, manageable units called packets, each containing source and destination information, and are then reassembled at the destination.</p> 
+    <h2>4. Routing to the Server:</h2>
+    <p>Routers along the network direct these packets through various interconnected networks to reach the server's IP address.</p> 
+    <h2>5. Server Processes and Responds:</h2>
+    <p>The web server receives the HTTP request, finds the requested content (or generates it dynamically), and sends it back to your browser in a new set of packets.</p>
+    <h2>6. Browser Displays the Content:</h2>
+    <hr>
+    <p>Your browser receives these packets, reassembles them, and uses the HTML, CSS, and JavaScript to render and display the web page for you to see and interact with. </p>
+    <img src="dns.jpeg" alt="dns" width="400px">
+</body>
+</html>

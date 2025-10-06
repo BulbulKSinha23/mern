@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file path</title>
+</head>
+<body>
+    <h1>Types of File Path:</h1>
+    <p>There are two types of File Paths you can use: absolute path and relative path.</p>
+    <img src="fp2.png" alt="file path" height="200px">
+    <hr>
+    <h2>Absolute File Path:</h2>
+    <p>An absolute file path uses the complete web address (URL) to specify the location of a resource.</p> 
+    Syntax for absolute paths
+    <b>External websites:</b> <p>You must use an absolute path when linking to resources on other websites.</p>
+    <b>&lt;a&gt; href="https://www.wikipedia.org"&gt;Visit Wikipedia&lt;/a&gt;</b>
+    <p>Locally stored files (not recommended): While it's possible to link to a local file on your computer using the file:/// protocol, it will not work for other users and has security restrictions in most browsers.</p>
+    <b>&lt;a href="file:///C:/Users/YourName/Documents/MyFile.pdf"&gt;Open My File&lt;/a&gt;</b>
+    <hr>
+    <h2>Relative File Path:</h2>
+    <p>Relative paths are considered a best practice for linking to files within the same website because they are more portable. The links will continue to work if you move your site to a different domain.</p> 
+    <b>Syntax for relative paths Same folder:</b> To link to a file in the same directory, just use the filename.
+    <br>
+    <b>&lt;a href="contact.html"&gt;Contact Us&lt;/a&gt;</b>
+    <img src="fp1.webp" alt="file path">
+</body>
+</html>
